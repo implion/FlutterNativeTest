@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "uidemo-lib"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of uidemo-lib."
 
   # This description is used to generate tags and improve search results.
@@ -24,10 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "a test library"
 
-  s.homepage     = "git@github.com:implion/FlutterNativeTest.git"
+  s.homepage     = "https://github.com/implion/FlutterNativeTest.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:implion/FlutterNativeTest.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/implion/FlutterNativeTest.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
