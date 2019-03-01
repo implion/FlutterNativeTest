@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "uidemo-lib"
-  s.version      = "0.0.2"
+  s.name         = "uidemoLib"
+  s.version      = "0.0.3"
   s.summary      = "A short description of uidemo-lib."
 
   # This description is used to generate tags and improve search results.
@@ -91,9 +91,9 @@ Pod::Spec.new do |s|
 
   #s.source_files  = "Classes", "Classes/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
-  s.source_files = "Flutter", "Flutter/**/*.{h,m}"
+  s.source_files = "Flutter", "Flutter/**/*"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
