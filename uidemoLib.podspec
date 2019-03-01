@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "uidemoLib"
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   s.summary      = "A short description of uidemo-lib."
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #s.exclude_files = "Classes/Exclude"
   s.source_files = "Flutter", "Flutter/**/*"
 
-  s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "Flutter/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
